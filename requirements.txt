@@ -1,0 +1,2 @@
+# Optional for HTTPS support:
+# pyopenssl>=20.0.0
