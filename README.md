@@ -16,7 +16,7 @@ A lightweight HTTP server for sharing files on your local network with a clean w
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/simple-http-server.git
+git clone https://github.com/0xSer3nity/simple-http-server.git
 cd simple-http-server
 ```
 
@@ -29,4 +29,20 @@ pip install pyopenssl
 ```bash
 chmod +x main.py
 ```
+
+## 🔍 Usage
+
+```bash
+python main.py [options]
+```
+
+## ⚙️ Options
+
+- `-d, --directory`: Directory to serve (default: current directory)
+- `-p, --port`: Port to listen on (default: 8000)
+- `-b, --bind`: Address to bind to (default: all interfaces)
+- `-u, --uploads`: Enable file uploads
+- `-s, --ssl`: Enable HTTPS
+- `--cert`: SSL certificate file (default: server.crt)
+- `--key`: SSL key file (default: server.key)
 
