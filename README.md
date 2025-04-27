@@ -78,3 +78,16 @@ python main.py -s
 python main.py -d /path/to/files -p 8080 -u -s
 ```
 
+## 🔄 How It Works
+
+The server uses Python's built-in HTTP server capabilities to create a web server that:
+
+1. Serves files from your specified directory
+2. Provides a clean, mobile-friendly interface to browse directories
+3. Displays file sizes in human-readable format
+4. Shows last modification times for files
+5. Optionally allows file uploads through a simple web form
+6. Provides secure connections with HTTPS if enabled
+
+When you start the server, it will display the URLs you can use to access it, both from the local machine and from other devices on your network.
+
