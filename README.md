@@ -91,3 +91,11 @@ The server uses Python's built-in HTTP server capabilities to create a web serve
 
 When you start the server, it will display the URLs you can use to access it, both from the local machine and from other devices on your network.
 
+## 🔒 Security Notes
+
+- This server is intended for temporary file sharing on trusted networks
+- The file upload feature should be used with caution, as it allows anyone with access to upload files
+- When using HTTPS, a self-signed certificate is generated, which may cause browser warnings
+- There is no authentication, so anyone with network access can view and download files
+- Do not use this server for sensitive information without proper security measures
+
