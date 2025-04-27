@@ -107,3 +107,6 @@ When you start the server, it will display the URLs you can use to access it, bo
 - You can redirect the output to a file to keep a log of all accesses
 - To make the server accessible from the internet, you would need to configure port forwarding on your router (not recommended without proper security)
 
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
