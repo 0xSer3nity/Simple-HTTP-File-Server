@@ -99,3 +99,11 @@ When you start the server, it will display the URLs you can use to access it, bo
 - There is no authentication, so anyone with network access can view and download files
 - Do not use this server for sensitive information without proper security measures
 
+## 💡 Tips
+
+- Use the `-u` flag to enable file uploads when you need to collect files from others
+- HTTPS is recommended if you're sharing on public Wi-Fi
+- The server shows your local network IP, so others on the same network can access it
+- You can redirect the output to a file to keep a log of all accesses
+- To make the server accessible from the internet, you would need to configure port forwarding on your router (not recommended without proper security)
+
