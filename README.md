@@ -46,3 +46,35 @@ python main.py [options]
 - `--cert`: SSL certificate file (default: server.crt)
 - `--key`: SSL key file (default: server.key)
 
+## 📝 Examples
+
+### Start a basic server in the current directory:
+```bash
+python main.py
+```
+
+### Serve a specific directory:
+```bash
+python main.py -d /path/to/files
+```
+
+### Use a different port:
+```bash
+python main.py -p 9000
+```
+
+### Enable file uploads:
+```bash
+python main.py -u
+```
+
+### Enable HTTPS:
+```bash
+python main.py -s
+```
+
+### Full example with all options:
+```bash
+python main.py -d /path/to/files -p 8080 -u -s
+```
+
